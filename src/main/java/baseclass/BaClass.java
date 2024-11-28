@@ -25,7 +25,7 @@ public class BaClass extends  ListenerClass  {
 		driver = new ChromeDriver();
 		sdriver = driver;
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		//driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.get("https://www.saucedemo.com/");
 		String str = driver.findElement(By.xpath("//div[text()='Swag Labs']")).getText();
 		System.out.println(str);

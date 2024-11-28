@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="PomScripts.AddToCartTest">
+      <class name="com.Scripts.DataAnnatation">
         <methods>
-          <include name="close_browser"/>
-          <include name="launch_browser"/>
-          <include name="addingProduct"/>
+          <include name="logintest" invocation-numbers="0 1 2"/>
         </methods>
-      </class> <!-- PomScripts.AddToCartTest -->
+      </class> <!-- com.Scripts.DataAnnatation -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
